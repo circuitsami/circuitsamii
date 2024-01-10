@@ -2,7 +2,7 @@
 body {
   font-family: 'Arial', sans-serif;
   color: white;
-  background: linear-gradient(to bottom, #000000, #800080); /* Gradient from black to purple */
+  background: linear-gradient(to bottom, #131c2b, #141d2c, #0d1927, #708aa6, #0e1a28); /* Custom gradient from dark blue to lighter shades */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -20,7 +20,7 @@ img {
 
 /* Header styles */
 header {
-  background: linear-gradient(to bottom, #000000, #800080); /* Gradient from black to purple */
+  background: linear-gradient(to bottom, #131c2b, #141d2c, #0d1927, #708aa6, #0e1a28); /* Custom gradient from dark blue to lighter shades */
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -112,7 +112,7 @@ main {
 
 /* Section Styles */
 section {
-  background: linear-gradient(to bottom, #000000, #800080); /* Gradient from black to purple */
+  background: linear-gradient(to bottom, #131c2b, #141d2c, #0d1927, #708aa6, #0e1a28); /* Custom gradient from dark blue to lighter shades */
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
@@ -133,7 +133,7 @@ h2, h3 {
 
 /* Footer styles */
 footer {
-  background: linear-gradient(to bottom, #000000, #800080); /* Gradient from black to purple */
+  background: linear-gradient(to bottom, #131c2b, #141d2c, #0d1927, #708aa6, #0e1a28); /* Custom gradient from dark blue to lighter shades */
   color: white;
   text-align: center;
   padding: 20px 0;
