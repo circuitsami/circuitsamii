@@ -1,8 +1,8 @@
-/* Main body styles */
+/* Base styles to ensure consistency and professionalism */
 body {
   font-family: 'Arial', sans-serif;
-  color: white;
-  background: linear-gradient(to bottom, #131c2b, #141d2c, #0d1927, #708aa6, #0e1a28); /* Custom gradient from dark blue to lighter shades */
+  color: #FFFFFF;
+  background: #0d1927; /* Simplified to a solid color for a cleaner look */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -11,17 +11,15 @@ body {
   min-height: 100vh;
 }
 
-/* Image responsiveness */
 img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
 
-/* Header styles */
+/* Simplified header for a clean and focused appearance */
 header {
-  background: linear-gradient(to bottom, #131c2b, #141d2c, #0d1927, #708aa6, #0e1a28); /* Custom gradient from dark blue to lighter shades */
-  color: white;
+  background: #131c2b; /* Uniform color for consistency */
+  color: #FFFFFF;
   padding: 20px 0;
   text-align: center;
 }
@@ -32,47 +30,37 @@ header {
   max-width: 1200px;
 }
 
-/* Navigation styles */
+/* Navigation refinement for better UX */
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
 }
 
 nav ul li {
-  margin: 0 20px;
-  border-radius: 15px;
-  border-bottom: 2px solid #800080; /* Purple bottom border */
+  margin: 0 15px; /* Adjusted for better spacing */
 }
 
 nav ul li a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
-  transition: color 0.3s, transform 0.3s;
   padding: 5px 10px;
-  display: block;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #ddd;
-  transform: scale(1.1);
+  color: #CCCCCC;
+  transform: translateY(-2px); /* Subtle hover effect */
 }
 
-/* Main content styles */
-main {
+/* Main content and card styling for clean layout */
+main, .card, .container {
   width: 80%;
   margin: 20px auto;
   max-width: 1200px;
-  flex: 1;
-}
-
-/* Card styles */
-.card {
   background-color: #222;
-  margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
@@ -82,67 +70,46 @@ main {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
 }
 
-/* Container styles */
-.container {
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-}
-
-/* Social media link styles */
-.social-media {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-}
-
+/* Clean and straightforward social media links */
 .social-media a {
   margin: 10px 0;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: #FFFFFF;
   font-size: 1.2em;
   transition: color 0.3s ease;
 }
 
 .social-media a:hover {
-  color: #ddd;
+  color: #CCCCCC;
 }
 
-/* Section Styles */
+/* Simplified section styles for better focus */
 section {
-  background: linear-gradient(to bottom, #131c2b, #141d2c, #0d1927, #708aa6, #0e1a28); /* Custom gradient from dark blue to lighter shades */
-  border: 1px solid #ddd;
+  background: #131c2b; /* Consistent background for sections */
   border-radius: 8px;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px; /* Adjusted spacing for consistency */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  text-align: center;
 }
 
-/* Headings */
 h2, h3 {
-  background-color: transparent;
-  color: white;
+  color: #FFFFFF;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
 }
 
-/* Footer styles */
+/* Footer adjustments for a clean finish */
 footer {
-  background: linear-gradient(to bottom, #131c2b, #141d2c, #0d1927, #708aa6, #0e1a28); /* Custom gradient from dark blue to lighter shades */
-  color: white;
-  text-align: center;
+  background: #131c2b;
+  color: #FFFFFF;
   padding: 20px 0;
 }
 
-/* Responsive design for tablets and smaller devices */
+/* Responsive adjustments for better mobile experience */
 @media only screen and (max-width: 768px) {
   .header-content, main, .container {
     width: 95%;
-    margin: 0 auto;
+  }
+
+  nav ul li {
+    margin: 0 10px; /* Adjusted for smaller screens */
   }
 }
