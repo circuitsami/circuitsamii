@@ -1,7 +1,7 @@
 body {
   font-family: 'Arial', sans-serif;
   color: #FFFFFF;
-  background: #0d1927; /* Simplified to a solid color for a cleaner look */
+  background: #121c2a; /* A deep, uniform navy blue for elegance and simplicity */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -15,21 +15,19 @@ img {
   height: auto;
 }
 
-/* Simplified header for a clean and focused appearance */
 header {
-  background: #131c2b; /* Uniform color for consistency */
+  background: #131c2b; /* Slightly lighter navy for subtle contrast */
   color: #FFFFFF;
   padding: 20px 0;
   text-align: center;
 }
 
 .header-content {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   max-width: 1200px;
 }
 
-/* Navigation refinement for better UX */
 nav ul {
   list-style: none;
   padding: 0;
@@ -39,64 +37,61 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 15px; /* Adjusted for better spacing */
+  margin: 0 20px;
 }
 
 nav ul li a {
   color: #FFFFFF;
   text-decoration: none;
-  padding: 5px 10px;
-  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 7px 14px;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 nav ul li a:hover {
   color: #CCCCCC;
-  transform: translateY(-2px); /* Subtle hover effect */
+  background-color: #1a2734; /* A subtle hover effect for a refined look */
 }
 
-/* Main content and card styling for clean layout */
 main, .card, .container {
-  width: 80%;
-  margin: 20px auto;
+  width: 85%;
+  margin: 30px auto;
   max-width: 1200px;
-  background-color: #222;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  background-color: #222d3c; /* A dark slate gray for content sections */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
-/* Simplified section styles for better focus */
 section {
-  background: #131c2b; /* Consistent background for sections */
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px; /* Adjusted spacing for consistency */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background: #131c2b; /* Matching the header for consistency */
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 h2, h3 {
   color: #FFFFFF;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-/* Footer adjustments for a clean finish */
 footer {
   background: #131c2b;
   color: #FFFFFF;
-  padding: 20px 0;
+  padding: 25px 0;
+  text-align: center;
 }
 
-/* Responsive adjustments for better mobile experience */
 @media only screen and (max-width: 768px) {
   .header-content, main, .container {
     width: 95%;
   }
 
   nav ul li {
-    margin: 0 10px; /* Adjusted for smaller screens */
+    margin: 0 5px;
   }
 }
